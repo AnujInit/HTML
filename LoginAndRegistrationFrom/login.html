@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <style>
+    /* Styling the body element like body color and margin */
+    body {
+      background-color: bisque;
+      margin: 2% 20%;
+    }
+
+    /* Styling the Title and giving shadow to the title */
+    .title {
+      text-align: center;
+      text-shadow: 5px 5px 10px white;
+      font-size: 7vh;
+    }
+
+    /* Setting font color and font size of the image-caption */
+    .caption {
+      font-size: 20px;
+      color: black;
+    }
+
+    /* Styling the content of the page like-padding, font-size, font color etc.*/
+    .data {
+      background-color: rgb(46, 139, 87, 0.25);
+      box-shadow: 20px 20px 20px burlywood;
+      font-family: Georgia;
+      padding: 25px 25px;
+      margin: 11px 11px 30px 0px;
+    }
+
+    /* Styling input */
+    input {
+      width: 100%;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      background-color: white;
+      padding: 10px 5px;
+      margin: 10px 0px;
+    }
+
+    /* Styling button */
+    button {
+      width: 30%;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      background-color: darkkhaki;
+      color: black;
+      border-radius: 10px;
+      font-size: 16px;
+      padding: 10px 5px;
+      margin: 0% 35%;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 class="title">Login</h1>
+  <p class="caption">Please fill this form to sign in.</p>
+  <div class="data">
+    <form action="">
+      <label for="email"><strong>E-mail:</strong></label><br>
+      <input type="email" name="email" placeholder="Enter your E-mail">
+      <br><br>
+      <label for="password"><strong>Password:</strong></label><br>
+      <input type="password" name="password" placeholder="Enter your password">
+      <br><br>
+      <button type="submit">Sign-in</button>
+    </form>
+  </div>
+  <p>New user? Please sign up <a href="register.html">here</a></p>
+</body>
+
+</html>
